@@ -41,7 +41,7 @@ const freeParseInt = parseInt;
  * toNumber('3.2')
  * // => 3.2
  */
-function toNumber(value, fallbackValue = NAN) {
+function toNumber(value, fallbackValue) {
     if (typeof value === 'number') {
         return value;
     }
